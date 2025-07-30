@@ -28,6 +28,17 @@ The project uses the IMDB dataset containing 50,000 movie reviews:
 - **Format**: CSV with 'review' and 'sentiment' columns
 - **Source**: IMDB movie reviews
 
+### Getting the Dataset
+
+Due to GitHub's file size limitations, the dataset is not included in this repository. You can obtain the IMDB dataset from:
+
+1. **Kaggle**: [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+2. **Direct Download**: Download the CSV file and place it in the project directory as `IMDB_dataset.csv`
+
+The dataset should have two columns:
+- `review`: The movie review text
+- `sentiment`: Either 'positive' or 'negative'
+
 ## 🛠️ Installation
 
 ### Prerequisites
@@ -121,9 +132,10 @@ The trained model achieves:
 ```
 imdb-sentiment-analysis/
 ├── imdb_sentiment_analysis.py    # Main implementation script
-├── IMDB_dataset.csv              # Dataset file
 ├── requirements.txt              # Python dependencies
 ├── README.md                    # This file
+├── NLP.ipynb                    # Original Jupyter notebook
+├── .gitignore                   # Git ignore rules
 └── venv/                        # Virtual environment (created during setup)
 ```
 
@@ -278,13 +290,6 @@ Feel free to contribute to this project by:
 - Optimizing performance
 - Adding new features
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 👨‍💻 Author
-
-[Your Name] - [Your Email]
 
 ---
 
